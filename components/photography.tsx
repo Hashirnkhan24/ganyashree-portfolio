@@ -37,7 +37,7 @@ const Photography = () => {
       <SectionHeading>My Hobby - Capturing the Blooms!</SectionHeading>
       <main className="grid place-items-center w-full mx-auto max-w-screen-xl mb-20 sm:mb-32">
         <div className=" mt-4 px-[1rem] pt-[1rem] pb-[5rem] bg-gradient-to-tr from-gray-100 via-gray-200 to-gray-100 dark:from-gray-800 dark:via-gray-900 dark:to-gray-800 rotate-6 flex flex-col items-center justify-center">
-          <BsPinAngleFill className="text-slate-800 dark:text-slate-400 text-3xl gap-2 mt-[-2rem] mb-[1rem]" />
+          <BsPinAngleFill className="text-slate-800 dark:text-slate-400 text-2xl sm:text-3xl gap-2 mt-[-2rem] mb-[1rem]" />
           <motion.div
             className="relative sm:w-[55vb] sm:h-[55vh] w-[25vb] h-[25vh] overflow-hidden shadow-lg"
             initial="hidden"

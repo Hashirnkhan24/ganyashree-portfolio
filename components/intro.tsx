@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
-import { FaGithubSquare } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import ganyashree from "@/public/Ganyashree.jpeg";
@@ -66,7 +66,7 @@ export default function Intro() {
         <span className="font-bold">Hello, I'm Ganyashree.</span> I'm persuing{" "}
         <span className="font-bold">MSc. in Cloud Computing</span> at{" "}
         <span className="font-bold">NCI, Dublin.</span>I also enjoy designing{" "}
-        <span className="italic">sites & apps</span>. My focus is{" "}
+        <span className="italic">& digital art</span>. My focus is{" "}
         <span className="underline">Cloud Architecture</span>.
       </motion.h1>
 
@@ -89,7 +89,6 @@ export default function Intro() {
           Contact me here{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
-
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 transition cursor-pointer borderBlack dark:bg-white/10"
           href="/CV.pdf"
@@ -98,21 +97,22 @@ export default function Intro() {
           Download CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
-
-        <a
-          className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://www.linkedin.com/in/ganyashree-suvarna-269b57169"
-          target="_blank"
-        >
-          <BsLinkedin />
-        </a>
-        {/* <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com"
-          target="_blank"
-        >
-          <FaGithubSquare />
-        </a> */}
+        <div className="flex items-center justify-center gap-2">
+          <a
+            className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+            href="https://www.linkedin.com/in/ganyashree-suvarna-269b57169"
+            target="_blank"
+          >
+            <BsLinkedin />
+          </a>
+          <a
+            className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+            href="https://www.instagram.com/nishri_illhuestrations?igsh=cThwbGF1czBjYmxp"
+            target="_blank"
+          >
+            <FaInstagramSquare />
+          </a>
+        </div>
       </motion.div>
     </section>
   );

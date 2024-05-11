@@ -30,8 +30,9 @@ export default function About() {
         </span>
         I decided to specialize further, blending my love for coding with an
         interest in designing robust cloud solutions.
-        <span className="underline">I immerse myself</span> in wandering in
-        nature and capturing the empeheral beauty of it.{" "}
+        <span className="underline"> I immerse myself</span> in wandering in
+        nature and capturing the empeheral beauty of it alongwith that I
+        ditgital art too.{" "}
       </p>
     </motion.section>
   );
