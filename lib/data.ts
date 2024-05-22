@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import wellTrackerImg from "@/public/WellTracker.png";
+import CRMFundingImg from "@/public/CRMFundingImg.png";
+import bloodLinkImg from "@/public/BloodLinkImg.png";
 import nature1 from "@/public/nature1.jpeg";
 import nature2 from "@/public/nature2.jpeg";
 import nature3 from "@/public/nature3.jpeg";
@@ -74,48 +74,45 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "WellTracker",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "A web application with integrated APIs that provides real-time health analytics and personalized health management tools.",
+    tags: ['AWS Lambda', 'API Gateway', 'Healthcare',
+      'Django', 'AWS', 'Cloud Computing', 'GitHub',
+      'Beanstalk', 'CI/CD'],
+    imageUrl: wellTrackerImg,
   },
   {
-    title: "rmtDev",
+    title: "CRM Fundings",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Developed a secure and scalable personal finance management platform using Django and AWS, improving user experience and financial data management.",
+    tags: ['Cloud Computing','CloudServices','AWS',
+      'Django', 'Finance'],
+    imageUrl: CRMFundingImg,
   },
   {
-    title: "Word Analytics",
+    title: "BloodLink",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "BloodLink: Python web app for finding and managing blood bank information with secure deployment and automated testing.",
+    tags: ['CI/CD', 'deployment', 'Django', 'BloodBank', 'AWS',
+    'Cloud Computing', 'GitHub', 'Beanstalk'],
+    imageUrl: bloodLinkImg,
   },
 ] as const;
 
 export const skillsData = [
   "HTML",
   "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
   "Python",
   "Django",
-  "Framer Motion",
+  "Cloud Computing",
+  "AWS",
+  "CI/CD",
+  "Git",
+  "Github",
+  "Beanstalk",
+  "Illustrator",
+  "Figma",
 ] as const;
 
 export const naturePhotos = [
